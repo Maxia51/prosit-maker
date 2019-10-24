@@ -93,7 +93,7 @@ class Generator extends Component{
         let tmp= '\n';
         tmp += ("" +text)
         
-        return md.replace(regex, tmp.substring(0, tmp.length-1))
+        return md.replace(regex, tmp)
     }
 
     addList(md, reg, list, ordered = false) {
