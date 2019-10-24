@@ -56,10 +56,10 @@ class Generator extends Component{
         let regex = /{Roles}/gi;
 
         let role = '';
-        role += ("*Animator: " + this.props.component.roles.animator+"\n")
-        role += ("*Scribe: " + this.props.component.roles.scribe+"\n")
-        role += ("*Manager: " + this.props.component.roles.manager+"\n")
-        role += ("*Secretary: " + this.props.component.roles.secretary)
+        role += ("* Animator: " + this.props.component.roles.animator+"\n")
+        role += ("* Scribe: " + this.props.component.roles.scribe+"\n")
+        role += ("* Manager: " + this.props.component.roles.manager+"\n")
+        role += ("* Secretary: " + this.props.component.roles.secretary)
 
         return md.replace(regex, role)
     }
