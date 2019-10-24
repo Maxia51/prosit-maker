@@ -69,9 +69,15 @@ class Generator extends Component{
 
         let tmp= '\n';
 
-        this.props.component.keywords.map((element) => {
-            return tmp += ("* **"+element+"**:\n");
-        })
+
+        if (this.props.component.keywords === undefined || this.props.component.keywords.length === 0) {
+            // array empty or does not exist
+            tmp += ("* ∅\n");
+        } else {
+            this.props.component.keywords.map((element) => {
+                return tmp += ("* **"+element+"**:\n");
+            })
+        }
 
         return md.replace(regex, tmp.substring(0, tmp.length-1));
     }
@@ -119,9 +125,16 @@ class Generator extends Component{
         let tmp= '\n';
         let listChar = ordered ? '1.' : '*'
 
-        list.map((element) => {
-            return tmp += (listChar+" "+element+"\n");
-        });
+
+        if (list === undefined || list.length === 0) {
+            // array empty or does not exist
+            tmp += (listChar+" ∅\n");
+        } else {
+            list.map((element) => {
+                return tmp += (listChar+" "+element+"\n");
+            });
+        }
+
 
         return md.replace(regex, tmp.substring(0, tmp.length-1))
     }
