@@ -35,6 +35,8 @@ class Generator extends Component{
                 md = this.addList(md, "Hypothesis", this.props.component.hypothesis);
                 md = this.addList(md, "Actions", this.props.component.actions, true);
 
+                md += '\n';
+
                 const element = document.createElement("a");
                 const file = new Blob([md], {type: 'text/plain'});
                 element.href = URL.createObjectURL(file);
@@ -65,10 +67,10 @@ class Generator extends Component{
     addKeyword(md){
         let regex = /{Kewords}/gi;
 
-        let tmp= '';
+        let tmp= '\n';
 
         this.props.component.keywords.map((element) => {
-            tmp += ("* **"+element+"**:\n");
+            return tmp += ("* **"+element+"**:\n");
         })
 
         return md.replace(regex, tmp.substring(0, tmp.length-1));
@@ -88,7 +90,7 @@ class Generator extends Component{
                 break;
         }
 
-        let tmp = '';
+        let tmp= '\n';
         tmp += ("" +text)
         
         return md.replace(regex, tmp.substring(0, tmp.length-1))
@@ -114,11 +116,11 @@ class Generator extends Component{
                 break;
         }
 
-        let tmp = '';
+        let tmp= '\n';
         let listChar = ordered ? '1.' : '*'
 
         list.map((element) => {
-            tmp += (listChar+" "+element+"\n");
+            return tmp += (listChar+" "+element+"\n");
         });
 
         return md.replace(regex, tmp.substring(0, tmp.length-1))
