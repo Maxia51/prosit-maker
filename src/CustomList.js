@@ -91,7 +91,7 @@ class CustomList extends Component{
                     </Form.Item>
                     <Form.Item>
                         <Button type={"primary"} htmlType={"submit"}>
-                            Add Keyword
+                            Add {this.props.title}
                         </Button>
                     </Form.Item>
                 </Form>
