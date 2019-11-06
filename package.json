@@ -2,13 +2,13 @@
   "name": "prositmaker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://maxia51.github.io/prosit-maker",
+  "homepage": "https://maxia51.github.io/prosit-maker/",
   "dependencies": {
-    "antd": "^3.19.1",
+    "antd": "^3.25.0",
     "gh-pages": "^2.1.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.0.1"
   },
   "scripts": {
