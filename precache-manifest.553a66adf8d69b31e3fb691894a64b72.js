@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cc9249448eadd4574f090980598560d",
+    "revision": "93b1d86922248bc85055d83b4005b655",
     "url": "/prosit-maker/index.html"
   },
   {
-    "revision": "2fea76f419ee71392c4b",
+    "revision": "47ab1d77c3a1f1be09fa",
     "url": "/prosit-maker/static/css/2.7ececfe9.chunk.css"
   },
   {
-    "revision": "978c21f76e13d9a524f3",
+    "revision": "097f2cb480d44c33166e",
     "url": "/prosit-maker/static/css/main.67bb3c7a.chunk.css"
   },
   {
-    "revision": "2fea76f419ee71392c4b",
-    "url": "/prosit-maker/static/js/2.3912ffc5.chunk.js"
+    "revision": "47ab1d77c3a1f1be09fa",
+    "url": "/prosit-maker/static/js/2.ed5d9e04.chunk.js"
   },
   {
-    "revision": "978c21f76e13d9a524f3",
-    "url": "/prosit-maker/static/js/main.45a7c35e.chunk.js"
+    "revision": "097f2cb480d44c33166e",
+    "url": "/prosit-maker/static/js/main.564225b9.chunk.js"
   },
   {
     "revision": "cbdd949785eec3cf62be",
