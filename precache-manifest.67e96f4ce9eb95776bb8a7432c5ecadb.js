@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f924e4ad97bc42f2bfdbec5e63cf58f",
+    "revision": "5cc9249448eadd4574f090980598560d",
     "url": "/prosit-maker/index.html"
   },
   {
-    "revision": "c54405d5d9f83dc5db9a",
-    "url": "/prosit-maker/static/css/2.7ff19518.chunk.css"
+    "revision": "2fea76f419ee71392c4b",
+    "url": "/prosit-maker/static/css/2.7ececfe9.chunk.css"
   },
   {
-    "revision": "358067f1acc64b2c0635",
+    "revision": "978c21f76e13d9a524f3",
     "url": "/prosit-maker/static/css/main.67bb3c7a.chunk.css"
   },
   {
-    "revision": "c54405d5d9f83dc5db9a",
-    "url": "/prosit-maker/static/js/2.ba9b6900.chunk.js"
+    "revision": "2fea76f419ee71392c4b",
+    "url": "/prosit-maker/static/js/2.3912ffc5.chunk.js"
   },
   {
-    "revision": "358067f1acc64b2c0635",
-    "url": "/prosit-maker/static/js/main.7a7da5a0.chunk.js"
+    "revision": "978c21f76e13d9a524f3",
+    "url": "/prosit-maker/static/js/main.45a7c35e.chunk.js"
   },
   {
     "revision": "cbdd949785eec3cf62be",
